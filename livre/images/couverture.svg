@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+<defs>
+    <radialGradient id="glowred"><stop offset="0%" stop-color="#ff2d2d" stop-opacity="0.85"/><stop offset="100%" stop-color="#ff2d2d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowblue"><stop offset="0%" stop-color="#2d6bff" stop-opacity="0.85"/><stop offset="100%" stop-color="#2d6bff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowwarm"><stop offset="0%" stop-color="#ffcc00" stop-opacity="0.45"/><stop offset="100%" stop-color="#ffcc00" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowwhite"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowviolet"><stop offset="0%" stop-color="#7b68ee" stop-opacity="0.45"/><stop offset="100%" stop-color="#7b68ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowdawn"><stop offset="0%" stop-color="#ffb27a" stop-opacity="0.7"/><stop offset="60%" stop-color="#ff6b35" stop-opacity="0.25"/><stop offset="100%" stop-color="#ff6b35" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowroad"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glowhorizon" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff9a6b" stop-opacity="0.32"/><stop offset="100%" stop-color="#ff9a6b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glowneon" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e94560" stop-opacity="0"/><stop offset="35%" stop-color="#e94560"/><stop offset="65%" stop-color="#7b68ee"/><stop offset="85%" stop-color="#4ecdc4"/><stop offset="100%" stop-color="#4ecdc4" stop-opacity="0"/></linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.72"><stop offset="55%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0.72"/></radialGradient>
+    <linearGradient id="bgcover" x1="0" y1="0" x2="0" y2="1"><stop offset="0.0%" stop-color="#0a0a1a"/><stop offset="25.0%" stop-color="#1a0a2e"/><stop offset="50.0%" stop-color="#4a0a2e"/><stop offset="75.0%" stop-color="#0a1a2e"/><stop offset="100.0%" stop-color="#0a0a1a"/></linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgcover)"/>
+  <rect x="0" y="171" width="104" height="166" fill="#05050a"/><rect x="120" y="129" width="82" height="208" fill="#05050a"/><rect x="220" y="159" width="124" height="178" fill="#05050a"/><rect x="360" y="107" width="104" height="230" fill="#05050a"/><rect x="482" y="141" width="82" height="196" fill="#05050a"/><rect x="584" y="163" width="102" height="174" fill="#05050a"/><rect x="702" y="121" width="98" height="216" fill="#05050a"/>
+  <g>
+    <circle cx="144" cy="117" r="86" fill="url(#glowred)">
+      <animate attributeName="opacity" values="0.15;0.95;0.15" dur="1.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="656" cy="117" r="86" fill="url(#glowblue)">
+      <animate attributeName="opacity" values="0.15;0.95;0.15" dur="1.3s" begin="0.65s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="0" y="115" width="800" height="4" fill="#e94560" opacity="0.18">
+      <animate attributeName="opacity" values="0.06;0.4;0.06" dur="1.3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g><line x1="0" y1="-40" x2="-14" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.00s" repeatCount="indefinite"/>
+    </line><line x1="37" y1="-40" x2="23" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.29s" repeatCount="indefinite"/>
+    </line><line x1="74" y1="-40" x2="60" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.58s" repeatCount="indefinite"/>
+    </line><line x1="111" y1="-40" x2="97" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.87s" repeatCount="indefinite"/>
+    </line><line x1="148" y1="-40" x2="134" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.16s" repeatCount="indefinite"/>
+    </line><line x1="185" y1="-40" x2="171" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.45s" repeatCount="indefinite"/>
+    </line><line x1="222" y1="-40" x2="208" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.74s" repeatCount="indefinite"/>
+    </line><line x1="259" y1="-40" x2="245" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.03s" repeatCount="indefinite"/>
+    </line><line x1="296" y1="-40" x2="282" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.32s" repeatCount="indefinite"/>
+    </line><line x1="333" y1="-40" x2="319" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.61s" repeatCount="indefinite"/>
+    </line><line x1="370" y1="-40" x2="356" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.90s" repeatCount="indefinite"/>
+    </line><line x1="407" y1="-40" x2="393" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.19s" repeatCount="indefinite"/>
+    </line><line x1="444" y1="-40" x2="430" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.48s" repeatCount="indefinite"/>
+    </line><line x1="481" y1="-40" x2="467" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.77s" repeatCount="indefinite"/>
+    </line><line x1="518" y1="-40" x2="504" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.06s" repeatCount="indefinite"/>
+    </line><line x1="555" y1="-40" x2="541" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.35s" repeatCount="indefinite"/>
+    </line><line x1="592" y1="-40" x2="578" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.64s" repeatCount="indefinite"/>
+    </line><line x1="629" y1="-40" x2="615" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.93s" repeatCount="indefinite"/>
+    </line><line x1="666" y1="-40" x2="652" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.22s" repeatCount="indefinite"/>
+    </line><line x1="703" y1="-40" x2="689" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.51s" repeatCount="indefinite"/>
+    </line><line x1="740" y1="-40" x2="726" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.80s" repeatCount="indefinite"/>
+    </line><line x1="777" y1="-40" x2="763" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.09s" repeatCount="indefinite"/>
+    </line><line x1="14" y1="-40" x2="0" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.38s" repeatCount="indefinite"/>
+    </line><line x1="51" y1="-40" x2="37" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.67s" repeatCount="indefinite"/>
+    </line><line x1="88" y1="-40" x2="74" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.96s" repeatCount="indefinite"/>
+    </line><line x1="125" y1="-40" x2="111" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.25s" repeatCount="indefinite"/>
+    </line><line x1="162" y1="-40" x2="148" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.54s" repeatCount="indefinite"/>
+    </line><line x1="199" y1="-40" x2="185" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.83s" repeatCount="indefinite"/>
+    </line><line x1="236" y1="-40" x2="222" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.12s" repeatCount="indefinite"/>
+    </line><line x1="273" y1="-40" x2="259" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.41s" repeatCount="indefinite"/>
+    </line><line x1="310" y1="-40" x2="296" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.70s" repeatCount="indefinite"/>
+    </line><line x1="347" y1="-40" x2="333" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.99s" repeatCount="indefinite"/>
+    </line><line x1="384" y1="-40" x2="370" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.28s" repeatCount="indefinite"/>
+    </line><line x1="421" y1="-40" x2="407" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.57s" repeatCount="indefinite"/>
+    </line><line x1="458" y1="-40" x2="444" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.86s" repeatCount="indefinite"/>
+    </line><line x1="495" y1="-40" x2="481" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.15s" repeatCount="indefinite"/>
+    </line><line x1="532" y1="-40" x2="518" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.44s" repeatCount="indefinite"/>
+    </line><line x1="569" y1="-40" x2="555" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.73s" repeatCount="indefinite"/>
+    </line><line x1="606" y1="-40" x2="592" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.02s" repeatCount="indefinite"/>
+    </line><line x1="643" y1="-40" x2="629" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.70s" begin="-0.31s" repeatCount="indefinite"/>
+    </line><line x1="680" y1="-40" x2="666" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.65s" begin="-0.60s" repeatCount="indefinite"/>
+    </line><line x1="717" y1="-40" x2="703" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.60s" begin="-0.89s" repeatCount="indefinite"/>
+    </line><line x1="754" y1="-40" x2="740" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.55s" begin="-0.18s" repeatCount="indefinite"/>
+    </line><line x1="791" y1="-40" x2="777" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.85s" begin="-0.47s" repeatCount="indefinite"/>
+    </line><line x1="28" y1="-40" x2="14" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.80s" begin="-0.76s" repeatCount="indefinite"/>
+    </line><line x1="65" y1="-40" x2="51" y2="0" stroke="#cfe8ff" stroke-width="1.2" opacity="0.4">
+      <animateTransform attributeName="transform" type="translate" values="0 -40;40 490" dur="0.75s" begin="-0.05s" repeatCount="indefinite"/>
+    </line></g>
+  <g transform="translate(400 333) scale(1.6) translate(-200 -180)">
+    <path d="M50 150 L80 100 L120 80 L280 80 L320 100 L350 150 L350 160 L50 160 Z" fill="#04040a" stroke="#e94560" stroke-width="2"/>
+    <path d="M126 92 L188 92 L188 120 L118 120 Z" fill="#e94560" opacity="0.55"/>
+    <path d="M200 92 L272 92 L292 120 L200 120 Z" fill="#e94560" opacity="0.55"/>
+    <circle cx="100" cy="160" r="20" fill="#04040a" stroke="#e94560" stroke-width="2"/>
+    <circle cx="300" cy="160" r="20" fill="#04040a" stroke="#e94560" stroke-width="2"/>
+  </g>
+  <rect x="0" y="360" width="800" height="90" fill="url(#glowroad)"/>
+  <rect x="0" y="424" width="800" height="26" fill="url(#glowroad)"/>
+  <rect x="0" y="0" width="800" height="450" fill="url(#vig)"/>
+</svg>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sources, licences et informations de publication de CLARK: NIGHT RUN.">
+  <meta name="author" content="CLARK: NIGHT RUN">
+  <title>Crédits — CLARK: NIGHT RUN</title>
+  <link rel="icon" href="images/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-credits" data-page="credits">
+  <header class="entete">
+    <a class="marque" href="index.html">Clark: Night Run</a>
+    <nav class="entete-nav" aria-label="Navigation générale">
+      <a href="sommaire.html">Sommaire</a>
+      <a href="fins.html">Fins</a>
+      <a href="aide.html">Aide</a>
+    </nav>
+  </header>
+  <main class="page">
+    <figure class="zone-image">
+      <img src="images/sceneendingsecret.svg" alt="Une porte fermée dans le noir, une lumière au loin">
+      <figcaption>Ou viennent les images de ce livre</figcaption>
+    </figure>
+    <div class="zone-texte">
+      <p class="etiquette">Sources et licences</p>
+      <h1 class="titre-page">CRÉDITS</h1>
+      <p class="sous-titre">Tout ce qui est publié ici est libre de droit</p>
+
+      <p class="consigne">Images</p>
+      <p>Toutes les illustrations de ce livre (<code>images/*.svg</code>) sont des <strong>dessins vectoriels originaux</strong>, écrits spécialement pour ce projet&nbsp;: des formes géométriques, des dégradés et des animations, sans aucune image photographique. Elles sont donc libres de droit par construction&nbsp;— aucune banque d'images, aucun retraitement, aucune image tierce. C'est ce qui rend la publication sans problème de licence.</p>
+
+      <p class="consigne">Polices d'écriture</p>
+      <p>Les polices <strong>Orbitron</strong>, <strong>Rajdhani</strong> et <strong>Share Tech Mono</strong> sont distribuées par Google Fonts sous licence <em>SIL Open Font License 1.1</em>, qui autorise la redistribution. Elles sont incorporées directement dans <code>style.css</code>, donc le livre reste lisible hors ligne. Si la première compilation se fait sans réseau, le livre bascule automatiquement sur des polices système.</p>
+
+      <p class="consigne">Textes</p>
+      <p>L'histoire, les dialogues, les statistiques et les décisions sont écrits pour ce projet. Les noms de marques cités (Porsche 911 Turbo S, Toyota Corolla, Dodge Ram) désignent des véhicules réels à titre de comparaison fictive&nbsp;: aucune marque n'est commanditaire de ce livre.</p>
+
+      <p class="consigne">Code</p>
+      <ul class="puces">
+        <li>Structure HTML générée à partir de <code>src/data/chapters.ts</code>.</li>
+        <li>Mise en forme&nbsp;: <code>style.css</code>.</li>
+        <li>Progression, choix et mini-jeu&nbsp;: <code>game.js</code>.</li>
+      </ul>
+
+      <p class="consigne">Fonctionnement hors ligne</p>
+      <p>Ce livre ne contient aucune adresse externe&nbsp;: ni police distante, ni image hébergée, ni lien réseau. Vous pouvez copier le dossier <code>livre/</code> sur une clé USB et l'ouvrir hors connexion, le jeu fonctionne à l'identique.</p>
+    </div>
+    <nav class="zone-liens" aria-label="Navigation">
+      <a class="lien lien--secondaire" href="sommaire.html">Sommaire<span class="detail">Reprendre l'aventure</span></a>
+      <a class="lien lien--secondaire" href="aide.html">Aide<span class="detail">Règles et commandes</span></a>
+      <a class="lien lien--secondaire" href="index.html">Accueil<span class="detail">Page de couverture</span></a>
+    </nav>
+  </main>
+  <footer class="pied">
+    <span>Livre-jeu automobile · Clark: Night Run</span>
+    <span><span data-parcours>Aucune page parcourue</span> · <span data-fin-total>0</span>/6 fins</span>
+    <span>Illustrations originales SVG · <a href="credits.html">crédits</a></span>
+  </footer>
+  <script src="game.js"></script>
+</body>
+</html>

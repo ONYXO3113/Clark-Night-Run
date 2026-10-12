@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" width="240" height="300">
+<defs>
+    <radialGradient id="glowred"><stop offset="0%" stop-color="#ff2d2d" stop-opacity="0.85"/><stop offset="100%" stop-color="#ff2d2d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowblue"><stop offset="0%" stop-color="#2d6bff" stop-opacity="0.85"/><stop offset="100%" stop-color="#2d6bff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowwarm"><stop offset="0%" stop-color="#ffcc00" stop-opacity="0.45"/><stop offset="100%" stop-color="#ffcc00" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowwhite"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowviolet"><stop offset="0%" stop-color="#7b68ee" stop-opacity="0.45"/><stop offset="100%" stop-color="#7b68ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowdawn"><stop offset="0%" stop-color="#ffb27a" stop-opacity="0.7"/><stop offset="60%" stop-color="#ff6b35" stop-opacity="0.25"/><stop offset="100%" stop-color="#ff6b35" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowroad"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.09"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glowhorizon" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff9a6b" stop-opacity="0.32"/><stop offset="100%" stop-color="#ff9a6b" stop-opacity="0"/></linearGradient>
+    <linearGradient id="glowneon" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e94560" stop-opacity="0"/><stop offset="35%" stop-color="#e94560"/><stop offset="65%" stop-color="#7b68ee"/><stop offset="85%" stop-color="#4ecdc4"/><stop offset="100%" stop-color="#4ecdc4" stop-opacity="0"/></linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.72"><stop offset="55%" stop-color="#000000" stop-opacity="0"/><stop offset="100%" stop-color="#000000" stop-opacity="0.72"/></radialGradient>
+    
+  </defs>
+  <rect width="240" height="300" fill="#101020"/>
+  <circle cx="120" cy="120" r="96" fill="url(#glowwarm)" opacity="0.35"/>
+  <path d="M120 250 q-72 0 -72 -66 q0 -40 72 -40 q72 0 72 40 q0 66 -72 66 z" fill="#ffcc00" opacity="0.22"/>
+  <ellipse cx="120" cy="118" rx="46" ry="54" fill="#14141f"/>
+  <path d="M74 112 q6 -58 46 -58 q40 0 46 58 q-14 -26 -46 -26 q-32 0 -46 26 z" fill="#0a0a12"/>
+  <path d="M120 176 q-14 0 -14 14 q0 14 14 14 q14 0 14 -14 q0 -14 -14 -14 z" fill="#14141f"/>
+  <path d="M40 300 q0 -74 80 -74 q80 0 80 74 z" fill="#14141f"/>
+  <path d="M104 200 l16 22 l16 -22 l-8 44 l-8 -18 l-8 18 z" fill="#ffcc00" opacity="0.8"/>
+  <circle cx="120" cy="112" r="5" fill="#ffcc00" opacity="0.9"/>
+  <text x="120" y="288" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="3" fill="#ffcc00">ROCCO</text>
+</svg>

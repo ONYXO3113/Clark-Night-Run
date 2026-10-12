@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choisissez la voiture de Clark avant de commencer la nuit.">
+  <meta name="author" content="CLARK: NIGHT RUN">
+  <title>Le garage — CLARK: NIGHT RUN</title>
+  <link rel="icon" href="images/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-choix" data-page="garage" data-type="vehicule">
+  <header class="entete">
+    <a class="marque" href="index.html">Clark: Night Run</a>
+    <nav class="entete-nav" aria-label="Navigation générale">
+      <a href="sommaire.html">Sommaire</a>
+      <a href="fins.html">Fins</a>
+      <a href="aide.html">Aide</a>
+    </nav>
+  </header>
+  <main class="page">
+    <figure class="zone-image">
+      <img src="images/scenegarage.svg" alt="L'intérieur du garage de Clark, un outil suspendu éclaire la place">
+      <figcaption>Chapitre 1 · Le garage · 23h14</figcaption>
+    </figure>
+    <div class="zone-texte">
+      <p class="etiquette">Le choix qui détermine la nuit</p>
+      <h1 class="titre-page">LE GARAGE</h1>
+      <p class="sous-titre">23h14 — Quelque part en ville</p>
+      <p class="chapo">Clark est dans son garage. L'odeur d'huile, de caoutchouc chaud et de métal. Trois voitures. Trois possibilités.</p>
+      <p>Il regarde ses trois voitures. La Porsche, noire, agressive. La Corolla, grise, banale, invisible. Le Ram, massif, imposant, indestructible.</p>
+      <p class="consigne">Choisissez la voiture que vous prendrez</p>
+      <p>Ce choix ouvre ou verrouille certains passages plus loin dans l'histoire. Vous pourrez le changer à tout moment depuis le sommaire.</p>
+            <ul class="panneau-stats" data-stats></ul>
+    </div>
+    <nav class="zone-liens" aria-label="Choix du véhicule">
+      <div class="grille">
+        <a class="fiche" href="c01a.html" data-vehicule="porsche">
+          <img src="images/voitureporsche.svg" alt="Silhouette de la PORSCHE 911 TURBO S">
+          <div class="fiche-corps">
+            <h3>PORSCHE 911 TURBO S</h3>
+            <p>La voiture du risque maximal</p>
+            <p>VITESSE PURE</p>
+            <div class="stats-mini"><span>VIT <b>10</b></span><span>DIS <b>2</b></span><span>ACC <b>10</b></span><span>FIAB <b>5</b></span></div>
+          </div>
+        </a>
+        <a class="fiche" href="c01a.html" data-vehicule="corolla">
+          <img src="images/voiturecorolla.svg" alt="Silhouette de la TOYOTA COROLLA GRISE">
+          <div class="fiche-corps">
+            <h3>TOYOTA COROLLA GRISE</h3>
+            <p>L'ombre parmi les ombres</p>
+            <p>DISCRÉTION TOTALE</p>
+            <div class="stats-mini"><span>VIT <b>4</b></span><span>DIS <b>10</b></span><span>ACC <b>4</b></span><span>FIAB <b>10</b></span></div>
+          </div>
+        </a>
+        <a class="fiche" href="c01a.html" data-vehicule="ram">
+          <img src="images/voitureram.svg" alt="Silhouette de la DODGE RAM 2500">
+          <div class="fiche-corps">
+            <h3>DODGE RAM 2500</h3>
+            <p>La force brute</p>
+            <p>FORCE BRUTE</p>
+            <div class="stats-mini"><span>VIT <b>4</b></span><span>DIS <b>3</b></span><span>ACC <b>5</b></span><span>FIAB <b>9</b></span></div>
+          </div>
+        </a>
+      </div>
+      <a class="lien lien--secondaire" href="sommaire.html">Sommaire<span class="detail">Revenir au sommaire général</span></a>
+      <a class="lien lien--secondaire" href="index.html">Accueil<span class="detail">Retour à la page de couverture</span></a>
+      <a class="lien lien--secondaire" href="sommaire.html">Voir le sommaire</a>
+    </nav>
+  </main>
+  <footer class="pied">
+    <span>Livre-jeu automobile · Clark: Night Run</span>
+    <span><span data-parcours>Aucune page parcourue</span> · <span data-fin-total>0</span>/6 fins</span>
+    <span>Illustrations originales SVG · <a href="credits.html">crédits</a></span>
+  </footer>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mini-jeu de tir : tenir le barrage pendant vingt secondes. LE BARRAGE.">
+  <meta name="author" content="CLARK: NIGHT RUN">
+  <title>LE BARRAGE — le barrage — CLARK: NIGHT RUN</title>
+  <link rel="icon" href="images/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-minijeu" data-page="ch4_siege" data-type="minijeu">
+  <header class="entete">
+    <a class="marque" href="index.html">Clark: Night Run</a>
+    <nav class="entete-nav" aria-label="Navigation générale">
+      <a href="sommaire.html">Sommaire</a>
+      <a href="fins.html">Fins</a>
+      <a href="aide.html">Aide</a>
+    </nav>
+  </header>
+  <main class="page">
+    <figure class="zone-image">
+      <img src="images/scenepolice.svg" alt="Trois voitures de police barrent la rue, gyrophares allumés">
+      <figcaption>Rue des Forges — 00h12</figcaption>
+    </figure>
+    <div class="zone-texte">
+      <p class="etiquette">Chapitre 5 sur 16 · mini-jeu</p>
+      <h1 class="titre-page">LE BARRAGE</h1>
+      <p class="sous-titre">Rue des Forges — 00h12</p>
+      <p>Au bout de la rue des Forges, Clark pile.</p>
+      <p>Trois voitures de police lui barrent la route. Les portières claquent. Quatre agents débarquent et l'invitent à se garer.</p>
+      <p>"MONSIEUR, COUPEZ LE MOTEUR."</p>
+      <p>Un instant d'hésitation. Puis la panique. Clark tend la main sous son siège et saisit son pistolet à eau, son arme de fortune pour tenir les agents à distance.</p>
+      <p>C'est l'affrontement. Clique sur les gyrophares qui avancent, et tiens bon !</p>
+      <p class="consigne">Mini-jeu&nbsp;: le barrage</p>
+      <div class="minijeu" data-minijeu data-duree="20" data-etat="en-cours">
+        <div class="minijeu-bandeau">
+          <span>Chrono <b data-chrono>20 s</b></span>
+          <span class="barre" data-jauge><i></i></span>
+          <span data-score>0 touche(s)</span>
+        </div>
+        <div class="minijeu-terrain" role="group" aria-label="Zone de tir">
+          <div class="minijeu-sol"></div>
+          <div class="minijeu-axe"></div>
+          <div class="minijeu-cible"></div>
+          <div class="minijeu-retour" aria-hidden="true"></div>
+          <div class="minijeu-ligne" aria-hidden="true"></div>
+        </div>
+        <p class="minijeu-message">Clique sur les gyrophares pour les faire reculer. Un agent qui atteint la ligne rouge&nbsp;et la nuit est finie.</p>
+      </div>
+      <ul class="panneau-stats" data-stats></ul>
+    </div>
+    <nav class="zone-liens" aria-label="Issue du mini-jeu">
+      <a class="lien lien--suivant" href="c06a.html" data-minijeu-suite="victoire">Tenir jusqu au bout<span class="detail">Le barrage tient. La suite de la nuit</span></a>
+      <a class="lien" href="fin4.html" data-minijeu-suite="defaite">Ceder le barrage<span class="detail">La ligne est franchie. Fin de cette nuit</span></a>
+      <a class="lien lien--secondaire" href="sommaire.html">Sommaire<span class="detail">Revenir au sommaire général</span></a>
+      <a class="lien lien--secondaire" href="index.html">Accueil<span class="detail">Retour à la page de couverture</span></a>
+    </nav>
+  </main>
+  <footer class="pied">
+    <span>Livre-jeu automobile · Clark: Night Run</span>
+    <span><span data-parcours>Aucune page parcourue</span> · <span data-fin-total>0</span>/6 fins</span>
+    <span>Illustrations originales SVG · <a href="credits.html">crédits</a></span>
+  </footer>
+  <script src="game.js"></script>
+</body>
+</html>

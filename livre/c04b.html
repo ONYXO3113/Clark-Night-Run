@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choisissez une option : LA FUITE.">
+  <meta name="author" content="CLARK: NIGHT RUN">
+  <title>LA FUITE — décision — CLARK: NIGHT RUN</title>
+  <link rel="icon" href="images/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-choix" data-page="ch4" data-type="choix">
+  <header class="entete">
+    <a class="marque" href="index.html">Clark: Night Run</a>
+    <nav class="entete-nav" aria-label="Navigation générale">
+      <a href="sommaire.html">Sommaire</a>
+      <a href="fins.html">Fins</a>
+      <a href="aide.html">Aide</a>
+    </nav>
+  </header>
+  <main class="page">
+    <figure class="zone-image">
+      <img src="images/scenepolice.svg" alt="Sirènes au loin — 00h07">
+      <figcaption>LA FUITE · Sirènes au loin — 00h07</figcaption>
+    </figure>
+    <div class="zone-texte">
+      <p class="etiquette">Chapitre 4 sur 16 · décision</p>
+      <h1 class="titre-page">LA FUITE</h1>
+      <p class="sous-titre">Sirènes au loin — 00h07</p>
+      <p class="chapo">Son téléphone vibre. Un message du Veilleur.</p>
+      <p class="consigne">Que faites-vous ?</p>
+      <ul class="panneau-stats" data-stats></ul>
+    </div>
+    <nav class="zone-liens" aria-label="Choix de la page">
+      <a class="lien" href="c05b.html" data-choix="ch4_follow" data-effets="{&quot;secrets&quot;:1,&quot;heat&quot;:-10}">
+            <span class="marque-choix m-intelligent">INTELLIGENT</span>Suivre le conseil du Veilleur</a>
+      <a class="lien" href="c05b.html" data-choix="ch4_highway" data-effets="{&quot;heat&quot;:10,&quot;damage&quot;:10}" data-condition="{&quot;type&quot;:&quot;vehicle&quot;,&quot;value&quot;:&quot;porsche&quot;}">
+            <span class="marque-choix m-risqu">RISQUÉ</span>Foncer vers l'autoroute</a>
+      <a class="lien" href="c05b.html" data-choix="ch4_hide" data-effets="{&quot;heat&quot;:-15,&quot;fuel&quot;:-5}" data-condition="{&quot;type&quot;:&quot;vehicle&quot;,&quot;value&quot;:&quot;corolla&quot;}">
+            <span class="marque-choix m-discret">DISCRET</span>Se garer et attendre que ça passe</a>
+      <a class="lien" href="c05b.html" data-choix="ch4_offroad" data-effets="{&quot;heat&quot;:5,&quot;damage&quot;:20}" data-condition="{&quot;type&quot;:&quot;vehicle&quot;,&quot;value&quot;:&quot;ram&quot;}">
+            <span class="marque-choix m-forcebrute">FORCE BRUTE</span>Sortir de la route et traverser un terrain vague</a>
+      <a class="lien lien--secondaire" href="sommaire.html">Sommaire<span class="detail">Revenir au sommaire général</span></a>
+      <a class="lien lien--secondaire" href="index.html">Accueil<span class="detail">Retour à la page de couverture</span></a>
+    </nav>
+  </main>
+  <footer class="pied">
+    <span>Livre-jeu automobile · Clark: Night Run</span>
+    <span><span data-parcours>Aucune page parcourue</span> · <span data-fin-total>0</span>/6 fins</span>
+    <span>Illustrations originales SVG · <a href="credits.html">crédits</a></span>
+  </footer>
+  <script src="game.js"></script>
+</body>
+</html>

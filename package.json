@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "build:single": "node scripts/build-single.mjs",
+    "build:livre": "node scripts/build-livre.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

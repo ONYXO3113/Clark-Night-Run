@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Règles, mini-jeu et progression de CLARK: NIGHT RUN.">
+  <meta name="author" content="CLARK: NIGHT RUN">
+  <title>Aide — CLARK: NIGHT RUN</title>
+  <link rel="icon" href="images/icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-aide" data-page="aide">
+  <header class="entete">
+    <a class="marque" href="index.html">Clark: Night Run</a>
+    <nav class="entete-nav" aria-label="Navigation générale">
+      <a href="sommaire.html">Sommaire</a>
+      <a href="fins.html">Fins</a>
+      <a href="aide.html">Aide</a>
+    </nav>
+  </header>
+  <main class="page">
+    <figure class="zone-image">
+      <img src="images/sceneconfrontation.svg" alt="Plusieurs silhouettes se font face à l'aube">
+      <figcaption>Mode d emploi</figcaption>
+    </figure>
+    <div class="zone-texte">
+      <p class="etiquette">Mode d emploi</p>
+      <h1 class="titre-page">AIDE</h1>
+      <p class="sous-titre">Comment lire ce livre</p>
+
+      <p class="consigne">Règles</p>
+      <ol class="puces">
+        <li><strong>index.html</strong> est la première page. Elle est différente des suivantes&nbsp;: c'est la couverture.</li>
+        <li>Depuis la couverture, vous choisissez un véhicule. Ce choix compte&nbsp;: il ouvre ou verrouille certains passages.</li>
+        <li>Chaque page de l'aventure présente le même gabarit&nbsp;: une image, un texte, puis une liste de liens. Chaque lien est une décision.</li>
+        <li>Cliquer sur un lien applique ses effets (alerte, réputation, secrets, confiance) puis ouvre la page suivante.</li>
+        <li>Un choix marqué <em>VERROUILLÉ</em> n'est pas accessible&nbsp;: le livre explique pourquoi juste dessous.</li>
+      </ol>
+
+      <p class="consigne">Mini-jeu&nbsp;: le barrage</p>
+      <p>Le chapitre <em>Le barrage</em> remplace la liste de choix par un mini-jeu de tir. Des silhouettes de policiers avancent vers toi&nbsp;: clique sur leurs gyrophares pour les faire reculer. Si l'un d'eux franchit la ligne rouge avant la fin du chrono, tu perds. Tiens vingt secondes pour gagner. Le jeu est écrit en JavaScript, dans le fichier <code>game.js</code>, et il fonctionne hors ligne.</p>
+
+      <p class="consigne">Progression</p>
+      <table>
+        <thead><tr><th>Statistique</th><th>Effet</th></tr></thead>
+        <tbody>
+          <tr><td>Alerte</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Dégâts</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Danger</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Réputation</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Argent</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Carburant</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Secrets</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Confiance Maya</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Confiance Rocco</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+          <tr><td>Confiance Elias</td><td>Modifiée par les choix, affichée en haut de chaque page de décision.</td></tr>
+        </tbody>
+      </table>
+      <p>La progression est enregistrée dans le <code>localStorage</code> de votre navigateur, sur cet ordinateur et ce navigateur uniquement. Elle n'est envoyée nulle part. Pour repartir de zéro, utilisez le bouton <em>Effacer ma progression</em> de la page des fins.</p>
+
+      <p class="consigne">Commandes</p>
+      <ul class="puces">
+        <li><strong>Clavier</strong> — <kbd>Tab</kbd> pour suivre les liens, <kbd>Entrée</kbd> pour valider.</li>
+        <li><strong>Souris ou tactile</strong> — tous les liens sont cliquables, aucun geste bizarre n'est demandé.</li>
+        <li><strong>Impression</strong> — <kbd>Ctrl</kbd>+<kbd>P</kbd> fonctionne&nbsp;: la mise en page s'adapte au papier.</li>
+      </ul>
+    </div>
+    <nav class="zone-liens" aria-label="Navigation">
+      <a class="lien lien--suivant" href="sommaire.html">Retour au sommaire<span class="detail">Reprendre l'aventure</span></a>
+      <a class="lien lien--secondaire" href="credits.html">Crédits<span class="detail">Images et licences</span></a>
+      <a class="lien lien--secondaire" href="index.html">Accueil<span class="detail">Page de couverture</span></a>
+    </nav>
+  </main>
+  <footer class="pied">
+    <span>Livre-jeu automobile · Clark: Night Run</span>
+    <span><span data-parcours>Aucune page parcourue</span> · <span data-fin-total>0</span>/6 fins</span>
+    <span>Illustrations originales SVG · <a href="credits.html">crédits</a></span>
+  </footer>
+  <script src="game.js"></script>
+</body>
+</html>
